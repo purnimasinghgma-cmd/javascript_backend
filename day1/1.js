@@ -11,7 +11,6 @@ console.log(operation, typeof a, typeof b);
 
 function add(x,y) {
     console.log("Addition:", x+y);
-
 }
 
 add(a, b);
