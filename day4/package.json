@@ -1,0 +1,23 @@
+{
+  "name": "day4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.js",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "even": "^0.1.1",
+    "is": "^3.3.2",
+    "is-buffer": "^1.1.6",
+    "is-even": "^0.1.2",
+    "is-number": "^3.0.0",
+    "is-odd": "^0.1.2",
+    "kind-of": "^3.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
