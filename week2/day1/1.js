@@ -1,4 +1,5 @@
-//  step - import expresjs
+// step - 0 npm init -y
+//  step 1 - import expresjs
 
 const express = require("express");
 
