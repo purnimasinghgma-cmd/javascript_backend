@@ -19,10 +19,12 @@ app.get("/home", (req, res) => {
 
 // GET API/ Read Route
 app.get("/read", (req, res) => {
+
   const data = fs.readFileSync("./1.json", "utf-8");
   // console.log(data, typeof data);
 
   // converting json data ---- parse ----> js object
+  
   const jsData = JSON.parse(data);
   console.log(jsData, typeof jsData);
 
@@ -32,6 +34,7 @@ app.get("/read", (req, res) => {
 });
 
 // GET API/ Read Route only for student
+
 app.get("/stread", (req, res) => {
   const data = fs.readFileSync("./1.json", "utf-8");
   // console.log(data, typeof data);
