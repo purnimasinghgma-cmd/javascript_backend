@@ -14,4 +14,3 @@
 // db.collectionName.updateOne({query},{$set:{}}) -> update 1 document in collection
 // db.collectionName.updateOne({query},{$set:{}}) -> update all document in collection
 // db.collectionName.deleteOne({query}) -> delete 1 document in collection
-// db.collectionName.deleteMany({query}) -> delete all document in collection
