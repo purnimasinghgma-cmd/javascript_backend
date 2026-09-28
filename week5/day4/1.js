@@ -33,6 +33,9 @@ const main = async () => {
     });
 
     console.log("data added successfuly");
+
+    const user = await userModel.find();
+    console.log();
  
     // // step -3 disconnect
     // mongoose.disconnect();
