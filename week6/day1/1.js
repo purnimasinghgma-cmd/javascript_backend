@@ -34,7 +34,7 @@ app.get("/read/:id", async (req, res) => {
   }
 });
 
-// POST Route: for Creating user
+// POST Route: for Creating user it is a constructor method
 app.post("/create", async (req, res) => {
   const payload = req.body;
   try {
